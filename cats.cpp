@@ -3,11 +3,11 @@
 
 //NOTE: Prim MST copied from https://www.geeksforgeeks.org/prims-algorithm-using-priority_queue-stl/
 
-#include <iostream>
+//#include <iostream>
 using namespace std;
 
 // STL implementation of Prim's algorithm for MST 
-#include<bits/stdc++.h> 
+#include <bits/stdc++.h> 
 # define INF 0x3f3f3f3f 
   
 // iPair ==>  Integer Pair 
@@ -115,6 +115,9 @@ int Graph::primMST()
 
 int main()
 {
+	ios_base::sync_with_stdio(false); 
+    cin.tie(NULL); 
+
 	int i,N,milk,cats,distance=0,a,b,weight;
 	cin >> N;
 
